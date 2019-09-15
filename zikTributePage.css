@@ -1,0 +1,69 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.8rem;
+    line-height: 2;
+    text-align: center;
+    margin: 0;
+    color: black;
+
+}
+h1{
+    font-size: 4.7rem;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 0;
+}
+#desc{
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+    position: relative;
+    bottom: 8px;
+}
+a{
+    color: rgb(9, 4, 31);
+}
+a:visited {
+    color: rgb(32, 34, 184);
+  }
+  ul{
+      max-width: 650px;
+      text-align: left;
+      margin: 0 auto 50px auto;
+      line-height: 1.7;
+
+  }
+  li{
+      margin: 16px 0;
+  }
+  #img-caption{
+      font-style: italic;
+      font-size: 1.5rem;
+  }
+  blockquote{
+      font-style: italic;
+      max-width: 1200px;
+      margin: auto auto;
+      font-family: 'Chilanka', cursive;
+      color: rgb(129, 19, 19);
+  }
+  #quoter{
+      color: black;
+      
+  }
+  footer{
+      font-size: 1.3rem;
+      text-align: right;
+  }
+  @media(max-width:400px){
+      main{
+          margin: 0;
+      }
+  }
+  img{
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+  }
